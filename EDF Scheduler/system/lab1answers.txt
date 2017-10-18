@@ -1,0 +1,22 @@
+1. In XINU, why are interrupts raised and what are they used for? Give example of some interrupts in XINU.
+
+ANSWER => (i) Interrupts are signalling mechanisms that allow external I/O devices to interrupt the processor when they need immediate service. At this time, the processor suspends the current activities, saving its state and handles the interrupt. For example, when a key is pressed on the keyboard. 
+
+
+2. PLAN:
+
+job2: 0
+job3: 20
+job1: 80
+job4: 90
+job5: 100
+
+3. PLAN:
+
+job1: 0
+job2: 20
+job5: 40
+job3: 70
+job3: 110
+job4: 130
+job4: 170
